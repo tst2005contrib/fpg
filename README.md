@@ -38,7 +38,7 @@ handwear = "Red", "Glove";
 ```
 Must be written as follows
 ```lua
-handwear = d{ "Red, "Glove" };
+handwear = d{ "Red", "Glove" };
 ```
 
 Futhermore, alternations cannot begin on string literals, as that would involve overriding Lua's global string metatable.
